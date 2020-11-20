@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CocktailToolbarStyle" parent="@style/Widget.AppCompat.Toolbar">
+        <item name="titleTextColor">@color/black</item>
+    </style>
+</resources>
