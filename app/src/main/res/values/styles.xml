@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
+    <style name="WhiteActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/white</item>
+    </style>
     <style name="CocktailToolbarStyle" parent="@style/Widget.AppCompat.Toolbar">
         <item name="titleTextColor">@color/black</item>
+    </style>
+
+    <style name="Toolbar.Button.Navigation.Tinted" parent="Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="tint">@color/black</item>
+    </style>
+
+    <style name="Theme.Flat.Button" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@drawable/ripple_selector</item>
+        <item name="backgroundColor">@color/action</item>
+        <item name="colorButtonNormal">@color/action</item>
+        <item name="colorControlHighlight">@color/action</item>
+        <!-- Any other items you want to add -->
     </style>
 </resources>
