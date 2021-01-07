@@ -1,5 +1,5 @@
 # CocktailApp
-Sample Android app made using Paging Library 3, Retrofit and Kotlin
+Sample Android app made using Paging Library 3, Retrofit, Moshi. 100% in Kotlin.
 
 
 
